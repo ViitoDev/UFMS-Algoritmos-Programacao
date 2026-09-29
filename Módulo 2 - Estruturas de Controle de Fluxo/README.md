@@ -52,6 +52,51 @@ x = -3.0 , y = 3.0 , z = -4.0
 
 ---
 
+### Exercício 2 — Parágrafo de apresentação
+
+#### Enunciado
+
+Escreva um programa que leia o nome, a idade, a altura, o peso e a nacionalidade do usuário e apresente essas informações em forma de um parágrafo.
+
+#### Funcionamento do código atual
+
+O programa solicita quatro informações:
+
+1. Nome.
+2. Idade.
+3. Peso.
+4. Nacionalidade.
+
+Em seguida, utiliza a função `print()` para juntar os dados em uma frase de apresentação.
+
+#### Exemplo de execução
+
+```text
+Digite seu nome: João
+Digite sua idade: 20
+Digite seu peso: 70
+Digite sua nacionalidade: brasileiro
+
+Olá! Meu nome é João , tenho 20 anos, peso 70 kg e sou brasileiro
+```
+
+#### Conceitos praticados
+
+- Leitura de dados com `input()`.
+- Armazenamento de informações em variáveis.
+- Concatenação de valores na saída do programa.
+- Formatação de uma frase com dados fornecidos pelo usuário.
+
+#### Implementação
+
+A solução está em [Exercicio-2.py](Exercicio-2.py).
+
+#### Observação
+
+O enunciado também solicita a leitura da altura, mas o código atual não possui uma variável nem uma entrada para essa informação.
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
