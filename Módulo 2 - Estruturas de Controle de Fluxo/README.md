@@ -143,6 +143,68 @@ A solução está em [Exercicio-3.py](Exercicio-3.py).
 
 ---
 
+### Exercício 4 — Distância entre dois pontos
+
+#### Enunciado
+
+Faça um programa que leia dois pontos no espaço bidimensional e calcule a distância entre esses pontos.
+
+#### Fórmula
+
+Para os pontos `A(x1, y1)` e `B(x2, y2)`, a distância é calculada por:
+
+```text
+distância = ((x2 - x1)² + (y2 - y1)²)¹ᐟ²
+```
+
+#### Funcionamento do código atual
+
+O programa define diretamente os pontos:
+
+```text
+A = (2, 4)
+B = (-2, 1)
+```
+
+Depois, calcula a distância usando os quadrados das diferenças entre as coordenadas:
+
+```text
+distancia = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+```
+
+#### Cálculo do exemplo
+
+```text
+distância = ((-2 - 2)² + (1 - 4)²)¹ᐟ²
+distância = (16 + 9)¹ᐟ²
+distância = 25¹ᐟ²
+distância = 5
+```
+
+#### Saída
+
+```text
+A distância entre os pontos A e B é: 5.0
+```
+
+#### Conceitos praticados
+
+- Representação de pontos por coordenadas.
+- Subtração entre coordenadas.
+- Potenciação com o operador `**`.
+- Cálculo de raiz quadrada usando potência fracionária.
+- Aplicação da fórmula da distância entre dois pontos.
+
+#### Implementação
+
+A solução está em [Exercicio-4.py](Exercicio-4.py).
+
+#### Observação
+
+O enunciado solicita a leitura dos dois pontos, mas o código atual utiliza valores fixos para as coordenadas.
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
