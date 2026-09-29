@@ -23,7 +23,7 @@ As variáveis começam com os valores:
 ```text
 x = 3.0
 y = 4.0
- z = 5.0
+z = 5.0
 ```
 
 As instruções são executadas sequencialmente:
