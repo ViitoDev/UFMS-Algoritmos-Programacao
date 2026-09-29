@@ -97,6 +97,52 @@ O enunciado também solicita a leitura da altura, mas o código atual não possu
 
 ---
 
+### Exercício 3 — Perímetro de uma circunferência
+
+#### Enunciado
+
+Faça um programa que calcule e escreva na tela o perímetro de uma circunferência a partir do seu raio.
+
+#### Fórmula
+
+O perímetro, também chamado de comprimento da circunferência, é calculado por:
+
+```text
+perímetro = 2 × π × raio
+```
+
+O programa utiliza `math.pi` para obter o valor aproximado de π.
+
+#### Funcionamento do código
+
+1. Importa o módulo `math`.
+2. Lê o raio informado pelo usuário como um número decimal (`float`).
+3. Calcula o perímetro usando `2 * math.pi * raio`.
+4. Exibe o resultado na tela.
+
+#### Exemplo de execução
+
+Para um raio de `5`:
+
+```text
+Digite o raio do círculo: 5
+O perímetro do círculo é: 31.41592653589793
+```
+
+#### Conceitos praticados
+
+- Importação de módulos com `import`.
+- Uso de constantes matemáticas com `math.pi`.
+- Leitura de números decimais com `float()`.
+- Aplicação de uma fórmula matemática em um programa.
+- Exibição de resultados com `print()`.
+
+#### Implementação
+
+A solução está em [Exercicio-3.py](Exercicio-3.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
