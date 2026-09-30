@@ -147,6 +147,60 @@ A solução está em [Exercicio-3.py](Exercicio-3.py).
 
 ---
 
+### Exercício 4 — Data de nascimento por extenso
+
+#### Enunciado
+
+Leia uma data de nascimento no formato `dd/mm/aaaa` e imprima a data com o mês escrito por extenso.
+
+#### Funcionamento do código
+
+1. Lê a data completa como uma string.
+2. Extrai o dia usando `data[0:2]`.
+3. Extrai o mês usando `data[3:5]`.
+4. Extrai o ano usando `data[6:10]`.
+5. Converte as três partes para números inteiros.
+6. Usa uma sequência de condições `if/elif` para substituir o número do mês pelo seu nome.
+7. Exibe a data no formato `dia de mês de ano`.
+
+#### Exemplo de execução
+
+```text
+Digite uma data do seu aniversário no formato dd/mm/aaaa: 20/02/1995
+A data do seu aniversário é: 20 de Fevereiro de 1995
+```
+
+#### Como a data é separada
+
+Para a entrada `20/02/1995`, as posições da string são utilizadas da seguinte forma:
+
+```text
+data[0:2]  -> 20 -> dia
+data[3:5]  -> 02 -> mês
+data[6:10] -> 1995 -> ano
+```
+
+#### Conceitos praticados
+
+- Leitura de strings com `input()`.
+- Fatiamento de strings por posição.
+- Conversão de strings para inteiros com `int()`.
+- Estruturas condicionais `if` e `elif`.
+- Associação entre números e nomes dos meses.
+- Formatação de texto com f-string.
+
+#### Implementação
+
+A solução está em [Exercicio-4.py](Exercicio-4.py).
+
+#### Observações
+
+- O programa espera que a data seja informada exatamente no formato `dd/mm/aaaa`.
+- A mensagem exibida pelo código fala em "data do seu aniversário", enquanto o enunciado apresenta a frase "Você nasceu em".
+- O código não valida se a data realmente existe, por exemplo, se o dia é válido para o mês informado.
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
