@@ -239,6 +239,55 @@ A solução está em [Exercicio-5.py](Exercicio-5.py).
 
 ---
 
+### Exercício 6 — Busca da posição de um valor no vetor
+
+#### Enunciado
+
+Preencha, por leitura, um vetor com 5 posições e informe a posição em que um valor `x`, também lido do teclado, está no vetor. Caso o valor não seja encontrado, imprima `-1`.
+
+#### Funcionamento do código
+
+1. Cria uma lista vazia.
+2. Lê 5 valores inteiros e adiciona cada um à lista.
+3. Lê o valor que será procurado.
+4. Inicializa `posicao` com `-1`, indicando que o valor ainda não foi encontrado.
+5. Percorre a lista comparando cada elemento com o valor procurado.
+6. Ao encontrar uma correspondência, armazena seu índice e encerra a busca.
+7. Exibe a posição encontrada ou `-1`.
+
+#### Exemplo de execução
+
+Para os valores `10`, `20`, `30`, `40` e `50`, procurando `30`:
+
+```text
+2
+```
+
+Como os índices em Python começam em `0`, o valor `30` está na posição `2`. Se o valor procurado fosse `99`, a saída seria:
+
+```text
+-1
+```
+
+#### O que foi corrigido
+
+O código original informava apenas que o valor não estava na lista quando não encontrava uma correspondência. O enunciado exige que, nesse caso, o programa imprima especificamente `-1`. A solução corrigida inicializa a posição com esse valor e só a altera quando encontra o elemento.
+
+#### Conceitos praticados
+
+- Criação e preenchimento de listas.
+- Leitura de valores com `input()`.
+- Percorrimento de uma lista por índice.
+- Busca linear em um vetor.
+- Uso de `break` para encerrar a busca.
+- Convenção de `-1` para representar ausência do valor.
+
+#### Implementação
+
+A solução está em [Exercicio-6.py](Exercicio-6.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
