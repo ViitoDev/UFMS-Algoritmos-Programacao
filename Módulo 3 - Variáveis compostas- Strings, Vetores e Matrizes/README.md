@@ -201,6 +201,44 @@ A solução está em [Exercicio-4.py](Exercicio-4.py).
 
 ---
 
+### Exercício 5 — Verificação de pertencimento em uma lista
+
+#### Enunciado
+
+Imprima `True` caso o valor `7` pertença à lista e `False` caso contrário.
+
+#### Funcionamento do código
+
+1. Define uma lista de números inteiros.
+2. Define o valor que será procurado (`7`).
+3. Usa o operador `in` para verificar se o valor pertence à lista.
+4. Exibe uma mensagem informando se o valor está ou não na lista.
+
+#### Exemplo de execução
+
+Como o valor `7` está presente na lista atual, a saída é:
+
+```text
+O valor 7 está na lista.
+```
+
+#### Conceitos praticados
+
+- Criação e uso de listas.
+- Verificação de pertencimento com o operador `in`.
+- Estrutura condicional `if/else`.
+- Formatação de texto com f-string.
+
+#### Observação
+
+O exemplo apresentado no enunciado usa a lista `[1, 2, 3, 4]`, que resultaria em `False`. O código atual usa `[1, 2, 3, 4, 5, 6, 7]`, portanto exibe uma mensagem indicando que o valor está na lista.
+
+#### Implementação
+
+A solução está em [Exercicio-5.py](Exercicio-5.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
