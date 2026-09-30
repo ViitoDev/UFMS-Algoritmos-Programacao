@@ -97,6 +97,56 @@ O código conta apenas o caractere espaço (`" "`). Tabulações e outros tipos 
 
 ---
 
+### Exercício 3 — Palavra invertida em letras maiúsculas
+
+#### Enunciado
+
+Leia uma palavra informada pelo usuário e escreva a palavra invertida, utilizando somente letras maiúsculas.
+
+#### Funcionamento do código
+
+1. Lê uma palavra com `input()`.
+2. Inverte a palavra usando o fatiamento `[::-1]`.
+3. Converte a palavra invertida para maiúsculas com o método `upper()`.
+4. Exibe a palavra original.
+5. Exibe a palavra invertida em letras maiúsculas.
+
+#### Exemplo de execução
+
+```text
+Digite uma palavra: alfabeto
+A palavra digitada foi: alfabeto
+A palavra invertida é: OTEBAFLA
+```
+
+#### Como funciona o fatiamento
+
+O formato geral do fatiamento é `texto[início:fim:passo]`. O passo `-1` percorre os caracteres do final para o início:
+
+```python
+palavra[::-1]
+```
+
+Depois, o método `upper()` transforma todas as letras em maiúsculas:
+
+```python
+palavra[::-1].upper()
+```
+
+#### Conceitos praticados
+
+- Leitura de strings com `input()`.
+- Fatiamento de strings.
+- Inversão de uma sequência com passo `-1`.
+- Conversão de texto para maiúsculas com `upper()`.
+- Formatação de saída com f-string.
+
+#### Implementação
+
+A solução está em [Exercicio-3.py](Exercicio-3.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
