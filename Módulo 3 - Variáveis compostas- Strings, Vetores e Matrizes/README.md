@@ -288,6 +288,53 @@ A solução está em [Exercicio-6.py](Exercicio-6.py).
 
 ---
 
+### Exercício 7 — Soma dos elementos de uma matriz
+
+#### Enunciado
+
+Escreva um programa que some todos os elementos de uma matriz `N x M`, cujos valores são lidos do teclado.
+
+#### Funcionamento do código atual
+
+1. Inicializa a variável da soma com zero.
+2. Define uma matriz `2 x 2` com os valores `1`, `2`, `3` e `4`.
+3. Percorre as linhas da matriz com um laço `for`.
+4. Soma os elementos de cada linha usando `sum()`.
+5. Exibe a soma total dos elementos.
+
+#### Exemplo de execução
+
+Para a matriz:
+
+```text
+1 2
+3 4
+```
+
+O programa exibe:
+
+```text
+A soma dos valores da matriz é: 10
+```
+
+#### Conceitos praticados
+
+- Criação e uso de matrizes.
+- Percorrimento de uma matriz por linhas.
+- Soma dos elementos de uma lista com `sum()`.
+- Acumulação de valores em uma variável.
+- Uso de laços de repetição.
+
+#### Observação
+
+O enunciado solicita que as dimensões e os valores da matriz sejam lidos do teclado. O código atual utiliza uma matriz fixa `2 x 2` como exemplo.
+
+#### Implementação
+
+A solução está em [Exercicio-7.py](Exercicio-7.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
