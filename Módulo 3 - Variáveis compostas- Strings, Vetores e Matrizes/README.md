@@ -335,6 +335,52 @@ A solução está em [Exercicio-7.py](Exercicio-7.py).
 
 ---
 
+### Exercício 8 — Média dos elementos de uma matriz
+
+#### Enunciado
+
+Escreva um programa que calcule a média dos elementos de uma matriz `N x M`, cujos valores são lidos do teclado.
+
+#### Funcionamento do código
+
+1. Lê a quantidade de linhas (`N`) e colunas (`M`).
+2. Cria uma matriz vazia e inicializa a soma total com zero.
+3. Percorre as linhas e as colunas usando dois laços `for`.
+4. Lê cada valor e adiciona-o à linha correspondente da matriz.
+5. Soma cada valor à variável `soma_total` durante a leitura.
+6. Calcula a quantidade de elementos multiplicando `linhas * colunas`.
+7. Divide a soma total pela quantidade de elementos para obter a média.
+8. Exibe a soma e a média da matriz.
+
+#### Fórmula
+
+```text
+média = soma total / (quantidade de linhas × quantidade de colunas)
+```
+
+#### Exemplo de execução
+
+Para uma matriz `2 x 2` com os valores `10`, `10`, `20` e `20`:
+
+```text
+A soma total dos valores da matriz é: 60
+A média dos valores da matriz é: 15.0
+```
+
+#### Conceitos praticados
+
+- Leitura das dimensões de uma matriz.
+- Criação e preenchimento de listas aninhadas.
+- Uso de laços `for` aninhados.
+- Acumulação de valores durante a leitura.
+- Cálculo de média aritmética.
+
+#### Implementação
+
+A solução está em [Exercicio-8.py](Exercicio-8.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
