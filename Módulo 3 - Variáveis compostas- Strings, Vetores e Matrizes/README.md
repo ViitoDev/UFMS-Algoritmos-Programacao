@@ -381,6 +381,54 @@ A solução está em [Exercicio-8.py](Exercicio-8.py).
 
 ---
 
+### Exercício 9 — Contagem de valores pares e ímpares em uma matriz
+
+#### Enunciado
+
+Escreva um programa que conte quantos valores pares e ímpares existem em uma matriz `N x M`, cujos valores são lidos do teclado.
+
+#### Funcionamento do código
+
+1. Lê a quantidade de linhas e colunas da matriz.
+2. Cria a matriz vazia e inicializa os contadores de valores pares e ímpares.
+3. Percorre cada posição da matriz usando dois laços `for`.
+4. Lê cada valor e adiciona-o à linha correspondente.
+5. Usa o operador `%` para verificar o resto da divisão do valor por `2`.
+6. Incrementa o contador de pares quando o resto é `0`; caso contrário, incrementa o contador de ímpares.
+7. Exibe as quantidades encontradas.
+
+#### Exemplo de execução
+
+Para uma matriz `2 x 2` com os valores `2`, `7`, `10` e `5`:
+
+```text
+Quantidade de valores pares: 2
+Quantidade de valores ímpares: 2
+```
+
+#### Como os valores são classificados
+
+- Um valor é par quando `valor % 2 == 0`.
+- Um valor é ímpar quando o resto da divisão por `2` é diferente de `0`.
+
+#### Conceitos praticados
+
+- Leitura das dimensões de uma matriz.
+- Criação e preenchimento de listas aninhadas.
+- Uso de laços `for` aninhados.
+- Contagem com variáveis acumuladoras.
+- Verificação de paridade com o operador `%`.
+
+#### Observação
+
+Foi removido um caractere `j` que estava solto no código e causava erro de sintaxe antes da execução do programa.
+
+#### Implementação
+
+A solução está em [Exercicio-9.py](Exercicio-9.py).
+
+---
+
 ### Próximos exercícios
 
 Novos exercícios serão documentados aqui, cada um em sua própria seção.
