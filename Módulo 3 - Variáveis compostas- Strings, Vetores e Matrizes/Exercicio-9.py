@@ -2,8 +2,8 @@ linhas = int(input('Digite a quantidade de linhas da matriz: '))
 colunas = int(input('Digite a quantidade de colunas da matriz: '))
 
 matriz = []
-quantidade_pares = 0
-quantidade_impares = 0
+maior = None
+menor = None
 
 for i in range(linhas):
 	linha = []
@@ -11,11 +11,11 @@ for i in range(linhas):
 		valor = int(input(f'Digite o valor da posição [{i}][{j}]: '))
 		linha.append(valor)
 
-		if valor % 2 == 0:
-			quantidade_pares += 1
-		else:
-			quantidade_impares += 1
+		if maior is None or valor > maior:
+			maior = valor
+		if menor is None or valor < menor:
+			menor = valor
 	matriz.append(linha)
 
-print(f'Quantidade de valores pares: {quantidade_pares}')
-print(f'Quantidade de valores ímpares: {quantidade_impares}')
+print(f'Maior elemento da matriz: {maior}')
+print(f'Menor elemento da matriz: {menor}')
