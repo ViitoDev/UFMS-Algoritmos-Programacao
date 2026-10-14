@@ -1,8 +1,16 @@
 # Módulo 2 — Estruturas de Controle de Fluxo
 
+[⬅ Voltar ao início](../README.md)
+
 Este módulo reúne exercícios sobre execução sequencial, atribuição e estruturas de controle de fluxo.
 
-A documentação dos exercícios ficará centralizada neste README. Os códigos-fonte permanecem nos arquivos `.py` correspondentes.
+| Arquivo | Tema |
+| --- | --- |
+| [Exercicio-1.py](Exercicio-1.py) | Análise da saída do programa |
+| [Exercicio-2.py](Exercicio-2.py) | Parágrafo de apresentação |
+| [Exercicio-3.py](Exercicio-3.py) | Perímetro de uma circunferência |
+| [Exercicio-4.py](Exercicio-4.py) | Distância entre dois pontos |
+| [Exercicio-5.py](Exercicio-5.py) | Menor quantidade de moedas |
 
 ## Exercícios
 
@@ -276,8 +284,3 @@ O operador `//` indica quantas moedas cabem no valor restante, enquanto `%` mant
 
 A solução está em [Exercicio-5.py](Exercicio-5.py).
 
----
-
-### Próximos exercícios
-
-Novos exercícios serão documentados aqui, cada um em sua própria seção.

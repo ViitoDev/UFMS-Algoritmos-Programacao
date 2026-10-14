@@ -1,8 +1,20 @@
 # Módulo 3 — Variáveis compostas: Strings, Vetores e Matrizes
 
+[⬅ Voltar ao início](../README.md)
+
 Este módulo reúne exercícios relacionados ao processamento de textos e ao uso de variáveis compostas.
 
-A documentação dos exercícios ficará centralizada neste README. Os códigos-fonte permanecem nos arquivos `.py` correspondentes.
+| Arquivo | Tema |
+| --- | --- |
+| [Exercicio-1.py](Exercicio-1.py) | Contagem de uma letra em uma palavra |
+| [Exercicio-2.py](Exercicio-2.py) | Contagem de caracteres de uma frase |
+| [Exercicio-3.py](Exercicio-3.py) | Palavra invertida em letras maiúsculas |
+| [Exercicio-4.py](Exercicio-4.py) | Data de nascimento por extenso |
+| [Exercicio-5.py](Exercicio-5.py) | Verificação de pertencimento em uma lista |
+| [Exercicio-6.py](Exercicio-6.py) | Busca da posição de um valor no vetor |
+| [Exercicio-7.py](Exercicio-7.py) | Soma dos elementos de uma matriz |
+| [Exercicio-8.py](Exercicio-8.py) | Média dos elementos de uma matriz |
+| [Exercicio-9.py](Exercicio-9.py) | Maior e menor elemento de uma matriz |
 
 ## Exercícios
 
@@ -418,8 +430,3 @@ Menor elemento da matriz: -7
 
 A solução está em [Exercicio-9.py](Exercicio-9.py).
 
----
-
-### Próximos exercícios
-
-Novos exercícios serão documentados aqui, cada um em sua própria seção.

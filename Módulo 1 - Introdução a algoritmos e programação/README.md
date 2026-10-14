@@ -1,8 +1,12 @@
 # Módulo 1 — Introdução a algoritmos e programação
 
-Este módulo reúne os exercícios, problemas e atividades introdutórias da disciplina.
+[⬅ Voltar ao início](../README.md)
 
-A documentação de todos os exercícios do módulo ficará neste único arquivo, organizada por seção. Os códigos-fonte permanecem nos arquivos `.py` correspondentes.
+Este módulo reúne os exercícios e problemas introdutórios da disciplina.
+
+| Arquivo | Tema |
+| --- | --- |
+| [Exercicio-1.py](Exercicio-1.py) | Pilha de moedas falsas |
 
 ## Exercícios
 
@@ -45,8 +49,3 @@ O programa verifica apenas se o peso total corresponde a 10 moedas verdadeiras. 
 
 A solução está em [Exercicio-1.py](Exercicio-1.py).
 
----
-
-### Próximos exercícios
-
-Novos exercícios serão documentados aqui, cada um em sua própria seção, mantendo a consulta do módulo em um único arquivo.
