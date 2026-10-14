@@ -2,11 +2,11 @@
 
 # Algoritmos e Programação I — UFMS
 
-**Exercícios e anotações da disciplina de Algoritmos e Programação I**
+**Exercícios e anotações da disciplina de Algoritmos e Programação I — concluída em 2026**
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![UFMS](https://img.shields.io/badge/UFMS-Gradua%C3%A7%C3%A3o-005CA9?style=for-the-badge)](https://www.ufms.br/)
-[![Status](https://img.shields.io/badge/Status-Em%20andamento-2EA44F?style=for-the-badge)](#-módulos)
+[![Status](https://img.shields.io/badge/Status-Conclu%C3%ADda-2EA44F?style=for-the-badge)](#-módulos)
 ![Last commit](https://img.shields.io/github/last-commit/ViitoDev/UFMS-Algoritmos-Programacao?style=for-the-badge&color=6E7681)
 
 </div>
@@ -26,6 +26,7 @@ Cada módulo possui um `README.md` próprio com o enunciado de cada exercício, 
 | 🧑‍💻 **Estudante** | [João Victor Pires Barros](https://github.com/ViitoDev) |
 | 🐍 **Linguagem** | Python 3 |
 | 📅 **Período** | 2026 |
+| ✅ **Situação** | Disciplina concluída — repositório mantido apenas como registro |
 
 ## 🗂️ Módulos
 
@@ -34,7 +35,7 @@ Cada módulo possui um `README.md` próprio com o enunciado de cada exercício, 
 | 1 | [Introdução a algoritmos e programação](Módulo%201%20-%20Introdução%20a%20algoritmos%20e%20programação/) | Lógica, entrada e saída, condicionais simples | 1 exercício |
 | 2 | [Estruturas de Controle de Fluxo](Módulo%202%20-%20Estruturas%20de%20Controle%20de%20Fluxo/) | Atribuição, operadores, `math`, `if/elif/else`, `while` | 5 exercícios |
 | 3 | [Variáveis compostas: Strings, Vetores e Matrizes](Módulo%203%20-%20Variáveis%20compostas-%20Strings,%20Vetores%20e%20Matrizes/) | Strings, fatiamento, listas, busca linear, matrizes | 9 exercícios |
-| 4 | [Modularização](Módulo%204%20-%20Modularizacão/) | Funções, parâmetros, `return`, procedimentos | 3 exercícios |
+| 4 | [Modularização](Módulo%204%20-%20Modularização/) | Funções, parâmetros, `return`, procedimentos | 3 exercícios |
 
 ## 🧱 Estrutura do repositório
 
@@ -49,7 +50,7 @@ Cada módulo possui um `README.md` próprio com o enunciado de cada exercício, 
 ├── Módulo 3 - Variáveis compostas- Strings, Vetores e Matrizes/
 │   ├── Exercicio-1.py … Exercicio-9.py
 │   └── README.md
-├── Módulo 4 - Modularizacão/
+├── Módulo 4 - Modularização/
 │   ├── Exercicio-1.py … Exercicio-3.py
 │   └── README.md
 └── README.md
@@ -72,7 +73,7 @@ python3 "Módulo 2 - Estruturas de Controle de Fluxo/Exercicio-3.py"
 ```
 
 > [!NOTE]
-> Os arquivos do Módulo 4 em `Exercicio-*.py` apenas **definem funções** e não produzem saída ao serem executados. Para testá-las, use o modo interativo: `python3 -i "Módulo 4 - Modularizacão/Exercicio-2.py"` e, em seguida, chame a função (ex.: `misterio_3(4)`).
+> Os arquivos do Módulo 4 em `Exercicio-*.py` apenas **definem funções** e não produzem saída ao serem executados. Para testá-las, use o modo interativo: `python3 -i "Módulo 4 - Modularização/Exercicio-2.py"` e, em seguida, chame a função (ex.: `misterio_3(4)`).
 
 ## 🎯 Conceitos abordados
 
@@ -86,7 +87,7 @@ python3 "Módulo 2 - Estruturas de Controle de Fluxo/Exercicio-3.py"
 
 ## ⚠️ Aviso acadêmico
 
-Este repositório tem finalidade **exclusivamente educacional** e serve como registro do meu aprendizado ao longo da disciplina. Se você também é estudante da disciplina, use o conteúdo como referência para estudo — copiar soluções para entregas avaliativas pode configurar plágio.
+Este repositório tem finalidade **exclusivamente educacional** e serve como registro do meu aprendizado ao longo da disciplina, que já foi concluída. O conteúdo não recebe mais atualizações. Se você também é estudante da disciplina, use o conteúdo como referência para estudo — copiar soluções para entregas avaliativas pode configurar plágio.
 
 ---
 
